@@ -1,0 +1,20 @@
+{
+    "name": "kris/secure-rest-api",
+    "type": "project",
+    "require": {
+        "vlucas/phpdotenv": "^2.4"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kris\\SecureRestApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "emkrysto",
+            "email": "emkrysto@gmail.com"
+        }
+    ],
+    "minimum-stability": "alpha"
+}
